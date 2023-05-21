@@ -1,0 +1,10 @@
+{
+	"class": "data structure",
+	"teacher": {
+		"name": "t1"
+	},
+	"student": [
+		{"name": "s1"},
+		{"name": "s2"}
+	]
+}
