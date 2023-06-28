@@ -1,10 +1,20 @@
-POST http://localhost:8080/books/ HTTP/1.1
+POST http://localhost:8080/register/ HTTP/1.1
 content-type: application/json
 
 {
-    "title": "sample book",
-    "author": "znz"
+    "username": "znz",
+    "password": "myserverpassword"
 }
 
 ###
-GET http://localhost:8080/books/2 HTTP/1.1
+POST http://localhost:8080/posts/ HTTP/1.1
+content-type: application/json
+
+{
+    "title": "My first vlog",
+    "content": "This is my first vlog. Very nice to be here.",
+    "user_id": 1
+}
+
+###
+GET http://localhost:8080/posts/1 HTTP/1.1

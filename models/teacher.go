@@ -1,7 +1,9 @@
 package models
 
+import "gorm.io/gorm"
+
 type Teacher struct {
-	ID     uint   `json:"id" gorm:"primary_key"`
+	gorm.Model
 	Name   string `json:"name"`
 	Gender string `json:"gender"`
 }
