@@ -1,9 +1,10 @@
 package main
 
 import (
+	"goapi/controllers"
+	"goapi/models"
+
 	"github.com/gin-gonic/gin"
-	"znz.com/web/controllers"
-	"znz.com/web/models"
 )
 
 func main() {
@@ -29,3 +30,7 @@ func main() {
 
 	r.Run()
 }
+
+// go mod init goapi
+// go mod tidy
+// go run server.go

@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
+	"goapi/models"
+
 	"github.com/gin-gonic/gin"
-	"znz.com/web/models"
 )
 
 // GET /books

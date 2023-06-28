@@ -3,8 +3,9 @@ package controllers
 import (
 	"net/http"
 
+	"goapi/models"
+
 	"github.com/gin-gonic/gin"
-	"znz.com/web/models"
 )
 
 // GET /students
